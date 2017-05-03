@@ -1,0 +1,453 @@
+html{
+	height: 101%;
+}
+body{
+	margin-bottom: 50px;
+	padding-bottom: 50px;
+}
+.contain{
+	margin-top: 3em;
+}
+.navbar-nav{
+	font-size: 1.3em;
+}
+.carousel img{
+	width: 100%;
+}
+.aboutAs div h4{
+	line-height: 1.5em;
+}
+#allmap {
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+	margin-top: 50px;
+	font-family:"微软雅黑";
+}
+#map-info{
+	height: 40px;
+	line-height: 40px;
+	font-weight: bold;
+}
+.fixTool{
+	position: fixed;
+	right: 2em;
+	z-index: 100;
+	bottom: 2em;
+	width: 55px;
+}
+.fixTool span{
+	font-size: 2em;
+}
+/*动画*/
+.fixTool img,.productClassification img,.productContent img,.styleShow img,.about .overflowDiv img,.personalTailor img,.news img,#myCarousel img,.team img{
+	transition: all 1.5s ;
+}
+.productContent img:hover,.styleShow img:hover,.personalTailor img:not(.twomar):hover,.news img:hover,#myCarousel img:hover,.team img:hover{
+	transform: scale(2);
+	opacity: 0.8;
+}
+.fixTool img:hover{
+	transform-origin: bottom right;
+	transform: scale(3); 
+}
+.personalTailor .personalTailorFirst{
+	transform-origin: top;
+}
+.productContent .thumbnailImg,.overflowDiv{
+	overflow: hidden;
+}
+
+/*路由动画*/
+.ng-enter {
+	z-index: 8888;
+    animation: scaleUp 1.2s both ease-in;
+    opacity: 0;
+}
+.ng-leave {
+    z-index: 9999;
+    animation: rotateFall 0.8s both ease-in;
+}
+@keyframes scaleUp {
+	0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes rotateFall {
+    0% {
+        transform: rotateZ(0deg);
+        opacity: 1;
+    }
+    20% {
+        transform: rotateZ(10deg);
+        animation-timing-function: ease-out;
+    }
+    40% {
+        transform: rotateZ(17deg);
+    }
+    60% {
+        transform: rotateZ(16deg);
+    }
+    100% {
+        transform: translateY(100%) rotateZ(17deg);
+        opacity: 0;
+    }
+}
+
+
+
+.productClassification,.aboutAs,.news,.styleShow,.map{
+	margin-top: 4em;
+}
+.productClassification h4,.aboutAs h4,.news h4,.styleShow h4{
+	margin-bottom: 30px;
+}
+.newsList1{
+	margin-top: 20px;
+}
+.newsList hr{
+	margin: 5px;
+}
+.maxWidth{
+	max-width: 50%;
+	display: inline-block;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.news button{
+	z-index: 1000;
+	margin-top: 20px;
+}
+.news a:hover{
+	text-decoration: none;
+}
+.newsTitle{
+	font-size: 25px;
+	line-height: 40px;
+}
+.newsContent hr{
+	margin: 5px;
+}
+/*contactUs*/
+.mar{
+	margin-top: 20px;
+	line-height: 24px;
+}
+.marg{
+	margin-top: 30px;
+	line-height: 15px;
+	font-size: 15px;
+}
+.margi{
+	margin-top: 20px;
+}
+.newsContent{
+	margin-top: 50px;
+}
+.messageParent{
+	/*border: 1px solid lightgray;*/
+	/*margin-top: 20px;*/
+}
+.messgeContent{
+	word-wrap: break-word;
+	font-size: 1em;
+	line-height: 1.5em;
+	height: 8em;
+	overflow: hidden;
+}
+
+/*登录注册*/
+.code{
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+}
+
+
+/*风格展示*/
+.filter ul{
+	margin-bottom: 10px;
+}
+.styleModal .modal-body,.productContent img{
+	cursor: pointer;
+}
+.styleModal .modal-body{
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+}
+
+/*aboutAs*/
+.con{
+	margin-top: 70px;
+}
+.cont{
+	margin-top: -16px;
+}
+#piczhanshi {
+	width: 1300px;
+	margin-right: auto;
+	margin-left: auto;
+	float:initial;
+	height: 285px;
+	/*border: 2px solid #999999;*/
+	background-color: #F3F3F3;
+	/*//margin-bottom: 10px;*/
+}
+
+#demo {
+	margin-top: 10px;
+	float: left;
+	/*height: auto;*/
+	/*width: auto;*/
+	overflow: hidden;
+}
+.twomar{
+	margin-top: 330px;
+}
+.textheig{
+	line-height:30px ;
+	font-size: 20px;
+}
+.aboutmar{
+	width: 100%;
+	margin-top: 50px;
+}
+
+
+/*personalTailor*/
+.personalTailor .selectmar{
+	margin-top: 20px;
+}
+.personalTailor .dingzhimar{
+	margin-top:30px ;
+	background-color:#f2f2f2;
+}
+.personalTailor .textmar{
+	margin-top:20px ;
+}
+.personalTailor .twomar{
+	margin-top: 100px;
+}
+.personalTailor .twomarr{
+	margin-top: 60px;
+}
+.personalTailor .twomarrr{
+	margin-top: 30px;
+}
+.personalTailor .threemar{
+	margin-top: 40px;
+}
+.personalTailor .qmar{
+	margin-top: 6px;
+}
+.personalTailor .amar{
+	margin-top: 2px;
+}
+.personalTailor .aamar{
+	margin-top: -4px;
+}
+.personalTailor .tmar{
+	margin-top: 8px;
+}
+.personalTailor .f_appo {
+    font-family: Arial,"宋体";
+}
+.personalTailor dl {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.personalTailor dt {
+    display: block;
+}
+.personalTailor option {
+    font-weight: normal;
+    display: block;
+    white-space: pre;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+.personalTailor label{
+	font-size: 1.5em;
+	line-height: 35px;
+}
+.personalTailor select, .personalTailor textarea {
+    background-color: #fff;
+    color: #7f7f7f;
+    border: 1px solid #ccc;
+    text-align: left;
+    margin: 2px 0 2px 0;
+}
+.personalTailor .u_warr_txt {
+    color: #ff8a81;
+    font-size: 12px;
+    line-height: 30px;
+    height: 30px;
+    text-align: left;
+    padding-left: 78px;
+}
+.personalTailor .f_appo_btn {
+    text-align: center;
+}
+.personalTailor .f_appo_btn a {
+    background: #ff8a81;
+    color: #fff;
+    border: none;
+    width: 80%;
+    height: 34px;
+    vertical-align: middle;
+    line-height: 34px;
+    text-align: center;
+    display: inline-block;
+}
+
+
+/*team*/
+.team ul.nav-pills {
+	top: 20px;
+	position: fixed;
+}
+.team .teammar{
+	margin-top: 70px;
+}
+.team .mfont{
+	font-size: 28px;
+	line-height: 30px;
+	color:peru;
+}
+.team .wfont{
+	font-size: 18px;
+	line-height: 30px;
+}
+.team .wmar{
+	width: 100%;
+}
+.team{
+	margin-bottom: 100px;
+}
+
+
+
+/*story*/
+.brandStory .storybg{	
+	background-image: url(img/brandStory/phead.jpg) ;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: auto;
+	margin-top: 10px;
+}
+.brandStory .tmargi{
+	margin-top: 60px;
+}
+.brandStory .ttmargi{
+	margin-top: 100px;
+}
+.brandStory .headbg{	
+	background-image: url(img/brandStory/phead2.jpg) ;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: auto;
+}
+.brandStory .smar{
+	margin-top:50px;
+}
+.brandStory .smarg{
+	margin-top:-10px;
+	margin-right: 10px;
+}
+.brandStory .simg{
+	height: 90%;
+	width:90%;
+	margin-top:5% ;
+	margin-left: 5%;
+}
+.brandStory .hmar{
+	margin-top:60px;
+}
+.brandStory .htmar{
+	margin-top: -8px;
+}
+.brandStory .tt{
+	margin-top: 15px;
+	margin-left:15%;
+	margin-right: 15%;
+}
+.brandStory .stextmar{
+	margin-top: 25px;
+}
+.brandStory .textbg{
+	background-color:#dbc7ba ;
+	height:330px ;
+}
+.brandStory .stextmarh{
+	margin-top: 45px;
+}
+.brandStory .box{
+    position: relative;
+    perspective: 1000px;
+}
+.brandStory .box img{
+    width: 100%;
+    height: auto;
+    opacity:1;
+    transform: translateY(0) rotateX(0);
+    transition: all 0.6s ease-in-out 0s;
+}
+.brandStory .box:hover img{
+    transform: translateY(-100%) rotateX(90deg);
+    transform-origin: center bottom 0;
+    opacity:0;
+}
+.brandStory .box .overlayer{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    opacity:0;
+    background:#dbc7ba;
+    text-align:center;
+    padding: 0 20px;
+    transition: all 0.60s ease-in-out 0s;
+}
+.brandStory .box:hover .overlayer{
+    opacity:1;
+}
+
+
+
+
+
+/*
+
+.list-group a{
+	margin-right: 5px;
+}
+
+.list-group hr:last-child{
+	position: relative;
+	top: -20px;
+	z-index: -88;
+}
+#myTab{
+	background: rgb(28,137,11);
+	color: white;
+}
+#myTab li a{
+	color: white;
+}
+#myTabContent{
+	margin-top: 20px;
+}
+*/

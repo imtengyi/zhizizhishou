@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>执子之手</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/myWebsite.css" />
+		<script src="lib/jquery-3.1.0.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/bootstrap-3.3.7/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="lib/bootstrap-3.3.7/css/bootstrap.min.css" />
+		<script src="lib/angular-1.3.0.14/angular.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/angular-1.3.0.14/angular-route.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/angular-1.3.0.14/angular-animate.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/app.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/directives.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/homeCtrl.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/newsCtrl.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/teamCtrl.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/contactUsCtrl.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/styleShowCtrl.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/aboutUsCtrl.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/personalTailorCtrl.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/brandStoryCtrl.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/jquery-ui-1.12.0/jquery-ui.min.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="lib/jquery-ui-1.12.0/jquery-ui.min.css" />
+		<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=yZ7YYouWI1IQo2y0WYGaHaTDoplDTYsk"></script>
+
+		<link rel="icon" href="img/logo.jpg" type="image/x-icon">
+		<!-- 定义图标 -->
+		<link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
+
+	</head>
+
+	<body ng-app="myApp" data-spy="scroll" data-target="#myScrollspy" data-offset="80">
+		<div class="container index">
+
+			<nav class="navbar navbar-default container" role="navigation" ng-controller="homeCtrl">
+				<div class="container-fluid">
+					<div class="navbar-header navbar-right">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">  
+			            <span class="sr-only">切换导航</span>
+			            <span class="icon-bar"></span>
+			            <span class="icon-bar"></span>
+			            <span class="icon-bar"></span>
+			        </button>
+						<a class="navbar-brand" href="#/home">执子之手 </a>
+						<a class="navbar-brand" href="#">
+							<span data-toggle="modal" data-target="#myModalLogin" data-backdrop="static"><small id="userName"><span class="glyphicon glyphicon-user"></span>登录</small>
+							</span>
+						</a>
+					</div>
+					<div class="collapse navbar-collapse" id="example-navbar-collapse">
+						<ul class="nav navbar-nav myTab">
+							<li ng-repeat="x in navbar" ng-class="{true:'active',false:'a'}[$index==0]">
+								<a ng-href="{{x.href}}">{{x.html}}</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+
+			<div class="contain" ng-view="">
+
+			</div>
+		</div>
+
+		<div class="fixTool">
+			<button class="btn btn-default">
+				<span class="glyphicon glyphicon-chevron-up text-primary" title="返回顶部"></span>
+			</button>
+			<br />
+			<button class="btn btn-default">
+				<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1318086894&site=qq&menu=yes">
+					<span class="glyphicon glyphicon-comment text-primary" title="点击这里给我发消息"></span>
+				</a>
+			</button>
+			<br />
+			<img src="img/code.png" class="img-responsive hidden-xs" title="手机扫描打开网站" />
+			<br />
+		</div>
+
+		<div class="modal fade" id="myModalLogin" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">  &times;  </button>
+						<h4 class="modal-title" id="myModalLabel">帐号密码登录</h4>
+					</div>
+					<div class="modal-body">
+						<form class="form-horizontal login" role="form">
+							<div class="form-group">
+								<label for="name" class="col-sm-2 control-label labelName">帐号</label>
+								<div class="col-sm-10">
+									<input type="text" class="form-control" id="name" placeholder="请输入帐号" autocomplete="off">
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="password" class="col-sm-2 control-label labelPassword">密码</label>
+								<div class="col-sm-10">
+									<input type="password" class="form-control" id="password" placeholder="请输入密码" autocomplete="off">
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="code" class="col-sm-2 control-label labelCode">验证码</label>
+								<div class="col-sm-10">
+									<input type="text" class="form-control" id="code" placeholder="请输入验证码" autocomplete="off">
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="firstname" class="col-sm-2 control-label"></label>
+								<div class="col-sm-10">
+									<p class="form-control-static bg-info col-xs-3 code text-center">1234</p>
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-offset-2 col-sm-10">
+									<div class="checkbox">
+										<label class="checkbox-inline"> 
+												<input type="radio" name="optionsRadiosinline" id="optionsRadios3" value="option1" checked> 记住密码 
+											</label>
+										<label class="checkbox-inline"> 
+												<input type="radio" name="optionsRadiosinline" id="optionsRadios4"  value="option2"> 不记住密码 
+											</label>
+									</div>
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-xs-offset-5 col-xs-7">
+									<button type="submit" class="btn btn-default">登录</button>
+									<button type="button" class="btn btn-default">退出</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</body>
+
+</html>

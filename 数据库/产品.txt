@@ -1,0 +1,107 @@
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石女戒', 'ZZZSNJ001', '10888', '9888', '2.0', 'MY HEART', 'img/display/nv/nvjie1.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石女戒', 'ZZZSNJ002', '9888', '8888', '2.0', 'FOREVER', 'img/display/nv/nvjie2.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石女戒', 'ZZZSNJ003', '10988', '10888', '2.0', 'TRUE LOVE', 'img/display/nv/nvjie3.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石女戒', 'ZZZSNJ004', '8888', '7888', '2.0', 'I SWARE', 'img/display/nv/nvjie4.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石女戒', 'ZZZSNJ005', '9888', '8888', '2.0', 'JUST YOU', 'img/display/nv/nvjie5.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石女戒', 'ZZZSNJ006', '10888', '9888', '2.0', 'BELIEVE', 'img/display/nv/nvjie6.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石女戒', 'ZZZSNJ007', '10888', '10788', '2.0', 'LOVE LINE', 'img/display/nv/nvjie7.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石女戒', 'ZZZSNJ008', '10888', '9888', '2.0', 'PRINCESS', 'img/display/nv/nvjie8.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石女戒', 'ZZZSNJ009', '9888', '8888', '2.0', 'LOVE LINE', 'img/display/nv/nvjie9.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石女戒', 'ZZZSNJ010', '10888', '10588', '2.0', 'MY HEART', 'img/display/nv/nvjie10.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石女戒', 'ZZZSNJ011', '6888', '5888', '2.0', 'FOREVER', 'img/display/nv/nvjie11.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石女戒', 'ZZZSNJ012', '7888', '6888', '2.0', 'TRUE LOVE', 'img/display/nv/nvjie12.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石女戒', 'ZZZSNJ013', '8888', '7888', '2.0', 'I SWARE', 'img/display/nv/nvjie13.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石女戒', 'ZZZSNJ014', '11888', '10888', '2.0', 'JUST YOU', 'img/display/nv/nvjie14.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石女戒', 'ZZZSNJ015', '12888', '11888', '2.0', 'BELIEVE', 'img/display/nv/nvjie15.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石女戒', 'ZZZSNJ016', '11888', '9988', '2.0', 'LOVE LINE', 'img/display/nv/nvjie16.jpg');
+
+
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石男戒', 'ZZZSMJ001', '9888', '8888', '2.1', 'PRINCESS', 'img/display/nan/nanjie1.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石男戒', 'ZZZSMJ002', '9988', '8888', '2.1', 'MY HEART', 'img/display/nan/nanjie2.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石男戒', 'ZZZSMJ003', '1088', '9888', '2.1', 'FOREVER', 'img/display/nan/nanjie3.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石男戒', 'ZZZSMJ004', '11888', '10888', '2.1', 'TRUE LOVE', 'img/display/nan/nanjie4.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石男戒', 'ZZZSMJ005', '12888', '11888', '2.1', 'I SWARE', 'img/display/nan/nanjie5.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石男戒', 'ZZZSMJ006', '13888', '12888', '2.1', 'JUST YOU', 'img/display/nan/nanjie6.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石男戒', 'ZZZSMJ007', '8888', '7888', '2.1', 'BELIEVE', 'img/display/nan/nanjie7.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石男戒', 'ZZZSMJ008', '7888', '6888', '2.1', 'LOVE LINE', 'img/display/nan/nanjie8.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石男戒', 'ZZZSMJ009', '6888', '5888', '2.1', 'PRINCESS', 'img/display/nan/nanjie9.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石男戒', 'ZZZSMJ010', '9988', '9788', '2.1', 'MY HEART', 'img/display/nan/nanjie10.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石男戒', 'ZZZSMJ011', '9588', '9288', '2.1', 'FOREVER', 'img/display/nan/nanjie11.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石男戒', 'ZZZSMJ012', '9788', '8788', '2.1', 'TRUE LOVE', 'img/display/nan/nanjie12.jpg');
+
+
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石吊坠', 'ZZZSDZ001', '11888', '10888', '6.2', 'I SWARE', 'img/display/diaozhui/diaozhui1.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石吊坠', 'ZZZSDZ002', '12888', '11888', '6.2', 'JUST YOU', 'img/display/diaozhui/diaozhui2.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石吊坠', 'ZZZSDZ003', '13888', '12888', '6.2', 'BELIEVE', 'img/display/diaozhui/diaozhui3.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石吊坠', 'ZZZSDZ004', '14888', '13888', '6.2', 'LOVE LINE', 'img/display/diaozhui/diaozhui4.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石吊坠', 'ZZZSDZ005', '15888', '14888', '6.2', 'PRINCESS', 'img/display/diaozhui/diaozhui5.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石吊坠', 'ZZZSDZ006', '16888', '15888', '6.2', 'MY HEART', 'img/display/diaozhui/diaozhui6.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石吊坠', 'ZZZSDZ007', '17888', '16888', '6.2', 'FOREVER', 'img/display/diaozhui/diaozhui7.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石吊坠', 'ZZZSDZ008', '18888', '17888', '6.2', 'TRUE LOVE', 'img/display/diaozhui/diaozhui8.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石吊坠', 'ZZZSDZ009', '19888', '18888', '6.2', 'I SWARE', 'img/display/diaozhui/diaozhui9.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石吊坠', 'ZZZSDZ010', '20888', '19888', '6.2', 'JUST YOU', 'img/display/diaozhui/diaozhui10.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石吊坠', 'ZZZSDZ011', '21888', '20888', '6.2', 'BELIEVE', 'img/display/diaozhui/diaozhui11.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石吊坠', 'ZZZSDZ012', '22888', '21888', '6.2', 'LOVE LINE', 'img/display/diaozhui/diaozhui12.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石吊坠', 'ZZZSDZ013', '23888', '22888', '6.2', 'PRINCESS', 'img/display/diaozhui/diaozhui13.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石吊坠', 'ZZZSDZ014', '24888', '23888', '6.2', 'LOVE LINE', 'img/display/diaozhui/diaozhui14.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石吊坠', 'ZZZSDZ015', '25888', '24888', '6.2', 'FOREVER', 'img/display/diaozhui/diaozhui15.jpg');
+
+
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石耳钉', 'ZZZSED001', '7888', '6888', '1.5', 'MY HEART', 'img/display/erding/erding1.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石耳钉', 'ZZZSED002', '8888', '7888', '1.5', 'FOREVER', 'img/display/erding/erding2.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石耳钉', 'ZZZSED003', '9888', '8888', '1.5', 'TRUE LOVE', 'img/display/erding/erding3.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石耳钉', 'ZZZSED004', '10888', '9888', '1.5', 'I SWARE', 'img/display/erding/erding4.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石耳钉', 'ZZZSED005', '11888', '10888', '1.5', 'JUST YOU', 'img/display/erding/erding5.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石耳钉', 'ZZZSED006', '12888', '11888', '1.5', 'BELIEVE', 'img/display/erding/erding6.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石耳钉', 'ZZZSED007', '13888', '12888', '1.5', 'LOVE LINE', 'img/display/erding/erding7.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石耳钉', 'ZZZSED008', '14888', '13888', '1.5', 'PRINCESS', 'img/display/erding/erding8.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石耳钉', 'ZZZSED009', '15888', '14888', '1.5', 'MY HEART', 'img/display/erding/erding9.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石耳钉', 'ZZZSED010', '16888', '15888', '1.5', 'FOREVER', 'img/display/erding/erding10.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石耳钉', 'ZZZSED011', '17888', '16888', '1.5', 'TRUE LOVE', 'img/display/erding/erding11.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石耳钉', 'ZZZSED012', '18888', '17888', '1.5', 'I SWARE', 'img/display/erding/erding12.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石耳钉', 'ZZZSED013', '19888', '18888', '1.5', 'JUST YOU', 'img/display/erding/erding13.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石耳钉', 'ZZZSED014', '20888', '19888', '1.5', 'LOVE LINE', 'img/display/erding/erding14.jpg');
+
+
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石手链', 'ZZZSSL001', '8888', '7888', '3.2', 'BELIEVE', 'img/display/shoulian/shoulain1.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石手链', 'ZZZSSL002', '9888', '8888', '3.2', 'LOVE LINE', 'img/display/shoulian/shoulain2.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石手链', 'ZZZSSL003', '10888', '9888', '3.2', 'PRINCESS', 'img/display/shoulian/shoulain3.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石手链', 'ZZZSSL004', '11888', '10888', '3.2', 'MY HEART', 'img/display/shoulian/shoulain4.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石手链', 'ZZZSSL005', '12888', '11888', '3.2', 'FOREVER', 'img/display/shoulian/shoulain5.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石手链', 'ZZZSSL006', '13888', '12888', '3.2', 'TRUE LOVE', 'img/display/shoulian/shoulain6.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石手链', 'ZZZSSL007', '14888', '13888', '3.2', 'I SWARE', 'img/display/shoulian/shoulain7.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石手链', 'ZZZSSL008', '15888', '14888', '3.2', 'JUST YOU', 'img/display/shoulian/shoulain8.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石手链', 'ZZZSSL009', '16888', '15888', '3.2', 'BELIEVE', 'img/display/shoulian/shoulain9.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石手链', 'ZZZSSL010', '17888', '16888', '3.2', 'LOVE LINE', 'img/display/shoulian/shoulain10.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石手链', 'ZZZSSL011', '18888', '17888', '3.2', 'PRINCESS', 'img/display/shoulian/shoulain11.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石手链', 'ZZZSSL012', '19888', '18888', '3.2', 'MY HEART', 'img/display/shoulian/shoulain12.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石手链', 'ZZZSSL013', '20888', '19888', '3.2', 'FOREVER', 'img/display/shoulian/shoulain13.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石手链', 'ZZZSSL014', '21888', '20888', '3.2', 'TRUE LOVE', 'img/display/shoulian/shoulain14.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石手链', 'ZZZSSL015', '22888', '21888', '3.2', 'I SWARE', 'img/display/shoulian/shoulain15.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('钻石手链', 'ZZZSSL016', '23888', '22888', '3.2', 'JUST YOU', 'img/display/shoulian/shoulain16.jpg');
+
+
+
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('黄金系列', 'ZZZSHJ001', '7888', '6888', '4.1', 'BELIEVE', 'img/display/huangjin/huangjin1.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('黄金系列', 'ZZZSHJ002', '8888', '7888', '4.1', 'LOVE LINE', 'img/display/huangjin/huangjin2.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('黄金系列', 'ZZZSHJ003', '9888', '8888', '4.1', 'PRINCESS', 'img/display/huangjin/huangjin3.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('黄金系列', 'ZZZSHJ004', '10888', '9888', '4.1', 'MY HEART', 'img/display/huangjin/huangjin4.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('黄金系列', 'ZZZSHJ005', '11888', '10888', '4.1', 'FOREVER', 'img/display/huangjin/huangjin5.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('黄金系列', 'ZZZSHJ006', '12888', '11888', '4.1', 'TRUE LOVE', 'img/display/huangjin/huangjin6.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('黄金系列', 'ZZZSHJ007', '13888', '12888', '4.1', 'I SWARE', 'img/display/huangjin/huangjin7.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('黄金系列', 'ZZZSHJ008', '14888', '13888', '4.1', 'JUST YOU', 'img/display/huangjin/huangjin8.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('黄金系列', 'ZZZSHJ009', '15888', '14888', '4.1', 'BELIEVE', 'img/display/huangjin/huangjin9.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('黄金系列', 'ZZZSHJ010', '16888', '15888', '4.1', 'LOVE LINE', 'img/display/huangjin/huangjin10.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('黄金系列', 'ZZZSHJ011', '17888', '16888', '4.1', 'PRINCESS', 'img/display/huangjin/huangjin11.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('黄金系列', 'ZZZSHJ012', '18888', '17888', '4.1', 'MY HEART', 'img/display/huangjin/huangjin12.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('黄金系列', 'ZZZSHJ013', '19888', '18888', '4.1', 'FOREVER', 'img/display/huangjin/huangjin13.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('黄金系列', 'ZZZSHJ014', '20888', '19888', '4.1', 'TRUE LOVE', 'img/display/huangjin/huangjin14.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('黄金系列', 'ZZZSHJ015', '21888', '20888', '4.1', 'I SWARE', 'img/display/huangjin/huangjin15.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('黄金系列', 'ZZZSHJ016', '22888', '21888', '4.1', 'JUST YOU', 'img/display/huangjin/huangjin16.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('黄金系列', 'ZZZSHJ017', '23888', '22888', '4.1', 'BELIEVE', 'img/display/huangjin/huangjin17.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('黄金系列', 'ZZZSHJ018', '24888', '23888', '4.1', 'LOVE LINE', 'img/display/huangjin/huangjin18.jpg');
+INSERT INTO `product` (`category`, `productNumber`, `marketPrice`, `price`, `weight`, `series`, `imgSrc`) VALUES ('黄金系列', 'ZZZSHJ019', '25888', '24888', '4.1', 'PRINCESS', 'img/display/huangjin/huangjin19.jpg');
+
+
+
+

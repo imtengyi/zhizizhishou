@@ -1,0 +1,63 @@
+CREATE DATABASE IF NOT EXISTS mywebsite DEFAULT CHARACTER SET gb2312;
+use mywebsite;
+CREATE TABLE IF NOT EXISTS `news` (
+ `num` int(20) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+ `title` varchar(50) NOT NULL,
+ `author` varchar(30) NOT NULL,
+ `content` varchar(1000) NOT NULL,
+ `date` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+ `category` ENUM('公司新闻','业界新闻') NOT NULL DEFAULT '公司新闻'
+) ENGINE=MyISAM DEFAULT CHARSET=gb2312;
+
+CREATE TABLE IF NOT EXISTS `contactUs` (
+ `num` int(20) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+ `name` varchar(10) NOT NULL,
+ `tel` varchar(20) NOT NULL,
+ `content` varchar(200) NOT NULL,
+ `date` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP
+) ENGINE=MyISAM DEFAULT CHARSET=gb2312;
+
+CREATE TABLE IF NOT EXISTS `product` (
+ `num` int(20) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+ `category` ENUM('钻石女戒','钻石男戒','钻石吊坠','钻石耳钉','钻石手链','黄金系列') NOT NULL DEFAULT '钻石女戒',
+ `productNumber` varchar(10) NOT NULL,
+ `marketPrice` varchar(20) NOT NULL,
+ `price` varchar(20) NOT NULL,
+ `weight` varchar(10) NOT NULL,
+ `series` ENUM('MY HEART','FOREVER','TRUE LOVE','I SWARE','JUST YOU','BELIEVE','LOVE LINE','PRINCESS') NOT NULL DEFAULT 'MY HEART',
+ `imgSrc` varchar(50) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=gb2312;
+
+
+CREATE TABLE IF NOT EXISTS `personalTailor` (
+ `num` int(20) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+ `datetime` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+ `date` varchar(10) NOT NULL,
+ `hour` ENUM('10:00-10:30','14:00-14:30','16:00-16:30') NOT NULL DEFAULT '10:00-10:30',
+ `name` varchar(10) NOT NULL,
+ `tel` varchar(20) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=gb2312;
+
+
+CREATE TABLE IF NOT EXISTS `user` (
+ `num` int(20) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+ `datetime` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+ `name` varchar(10) NOT NULL,
+ `password` varchar(10) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=gb2312;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

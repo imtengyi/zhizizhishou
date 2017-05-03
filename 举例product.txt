@@ -1,0 +1,22 @@
+{
+"data": [
+{
+"productNumber": "ZZZSHJ018",
+"marketPrice": "24888",
+"price": "23888",
+"weight": "4.4",
+"series": "LOVE LINE",
+"category": "黄金系列",
+"imgSrc": "img/display/diaozhui/diaozhui1.jpg"
+},
+{
+"productNumber": "ZZZSHJ018",
+"marketPrice": "24888",
+"price": "23888",
+"weight": "4.1",
+"series": "LOVE LINE",
+"category": "黄金系列",
+"imgSrc": "img/display/diaozhui/diaozhui1.jpg"
+}
+]
+}

@@ -1,0 +1,141 @@
+<!-- 轮播图 -->
+<div id="myCarousel" class="carousel slide">
+	<ol class="carousel-indicators">
+		<li data-target="#myCarousel" data-slide-to="{{$index}}" ng-class="{true:'active'}[$index==0]" ng-repeat="x in carousel"></li>
+	</ol>
+	<div class="carousel-inner">
+		<div class="item" ng-class="{true:'active'}[$index==0]" ng-repeat="x in carousel">
+			<img ng-src="{{x}}">
+		</div>
+	</div>
+	<a class="carousel-control left" href="#myCarousel" data-slide="prev"></a>
+	<a class="carousel-control right" href="#myCarousel" data-slide="next"></a>
+</div>
+
+<!--关于我们-->
+<div class="aboutAs">
+	<h2 class="text-center">欢迎来到执子之手</h2>
+	<h3 class="text-center text-muted">ABOUT AS</h3>
+	<h4 class="text-center">关于我们</h4>
+	<div class="row">
+		<div class="col-xs-4 col-md-2">
+			<img src="img/logo.jpg" class="img-responsive" />
+		</div>
+		<h4 class="text-muted">
+				执子之手是一家集钻石地质科研、设计、生产、销售和系统集成为一体的高薪珠宝产业，是DTC中央统售组织指定看货商在华中地区的核心分销商。成立于1995年，凭借在地质科研领域的专业水平和对市场评估经验，一直被供应商所看好给予不断支持，依靠科研技术巩固和掌握了钻石渠道，在钻石渠道域迅速崛起。在电商发展最活跃时期届时发力不断为用户提供了满意的钻石产品，以一流的产品质量和精湛的工艺服务受到了用户的一致好评，做婚戒最好的电商平台是我们始终不变的追求。公司始终坚持 “ 产品的创新，差异化；市场的整合，全局化；利益共享化，在变化中找准自我定位 ” 的经营理念，以 “ 追求客户最大满意 ” 为服务宗旨，紧随时代流行趋势，使各类钻石产品始终走在市场前沿，做到款款流行。
+
+			</h4>
+	</div>
+	<div class="center-block text-center">
+		<a href="#/aboutUs"><button class="btn btn-primary">了解更多</button></a>
+	</div>
+</div>
+
+<!--产品分类-->
+<div class="productClassification">
+	<h3 class="text-center text-muted">My product classification</h3>
+	<h4 class="text-center">我的产品分类	</h4>
+	<div class="row">
+		<div class="col-xs-6 col-sm-4 col-md-2" ng-repeat="x in productClassification">
+			<div class="thumbnail">
+				<img ng-src="{{x.src}}" alt="通用的占位符缩略图">
+				<div class="caption">
+					<p class="text-center">{{x.name}}</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<a href="#/styleShow">
+		<button type="button" class="btn btn-primary text-center center-block">
+			<span class="glyphicon glyphicon-chevron-down"></span>
+		</button>
+	</a>
+</div>
+
+<!--新闻-->
+<div class="news">
+	<div class="row">
+		<div class="col-md-6">
+			<h3 class="text-muted">COMPANT NEWS</h3>
+			<h4>公司新闻</h4>
+			<div class="row">
+				<div class="col-xs-6 overflowDiv">
+					<img src="img/news1.jpg" class="img-responsive" />
+				</div>
+				<div class="col-xs-6 overflowDiv">
+					<img src="img/news2.jpg" class="img-responsive" />
+				</div>
+			</div>
+			<div class="newsList" ng-class="{true:'newsList1'}[$index==0]" ng-repeat="x in companyNews">
+				<div>
+					<a href="#" content="{{x.content}}" class="maxWidth" title="{{x.title}}">{{x.title}}</a>
+					<span class="pull-right text-muted maxWidth">{{x.date}}</span>
+				</div>
+				<hr />
+			</div>
+			<a href="#/news">
+				<button class="btn btn-primary text-center center-block">了解更多</button>
+			</a>
+			<hr />
+		</div>
+
+		<div class="col-md-6">
+			<h3 class="text-muted">INDUSTRY NEWS</h3>
+			<h4>业界新闻</h4>
+			<div class="row">
+				<div class="col-xs-6 overflowDiv">
+					<img src="img/news3.jpg" class="img-responsive" />
+				</div>
+				<div class="col-xs-6 overflowDiv">
+					<img src="img/news4.jpg" class="img-responsive" />
+				</div>
+			</div>
+			<div class="newsList" ng-class="{true:'newsList1'}[$index==0]" ng-repeat="x in industryNews">
+				<div>
+					<a href="#" content="{{x.content}}" class="maxWidth" title="{{x.title}}">{{x.title}}</a>
+					<span class="pull-right text-muted maxWidth">{{x.date}}</span>
+				</div>
+				<hr />
+			</div>
+			<a href="#/news">
+				<button class="btn btn-primary center-block">了解更多</button>
+			</a>
+			<hr />
+		</div>
+	</div>
+</div>
+
+<!--产品展示-->
+<div class="styleShow">
+	<h3 class="text-center text-muted">	PRODUCT DISPLAY	</h3>
+	<h4 class="text-center">风格展示	</h4>
+	<ul id="myTab" class="nav nav-pills nav-justified tabStyle">
+		<!--<li ng-class="{true:'active'}[$index==0]" ng-repeat="x in productClassification"><a ng-href="#{{x.class}}" data-toggle="tab">{{x.name}}</a></li>-->
+	</ul>
+	<div id="myTabContent" class="tab-content">
+		<!--<div class="tab-pane fade" ng-class="{true:'in active'}[$index==0]" id="{{x.class}}" ng-repeat="x in productDisplay">
+	        <div class="row">
+	        	<div class="col-xs-3" ng-repeat="y in x.href">
+	        		<img ng-src="{{y}}" class="img-responsive"/>
+	        	</div>
+	        </div>
+	    </div>-->
+		<!--<img src="../img/display/huangjin/huangjin (1).jpg"/>-->
+	</div>
+</div>
+
+<!--地图-->
+<div class="map">
+	<div class="row">
+		<div class="col-xs-12">
+			<div id="allmap"></div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12 text-center" id="map-info">
+			地址：广东省广州市番禺区市良路1342号广州番禺职业技术学院　　电话：13025214712　　传真：1236-5464XXX-1236468XX　　邮箱：1318086894@qq.com
+		</div>
+	</div>
+</div>
+
+<newsshow></newsshow>
